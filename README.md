@@ -16,6 +16,7 @@ Current version of Python used for development: `Python 3.6.13`.
 - `source ./env/bin/activate`.
   - Run `which pip` to see if it worked. The path must end in `env/bin/pip`.
   - **Note**: Whenever you install a new package with `pip` in this environment, activate it again.
+- `pip install flit==3.2.0`.
 
 ## Notes
 
