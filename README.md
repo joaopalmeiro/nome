@@ -23,6 +23,7 @@ Current version of Python used for development: `Python 3.6.13`.
 
 ## Deployment
 
+- Bump version (`nome/__init__.py` file).
 - `flit publish`.
 
 ## Notes
