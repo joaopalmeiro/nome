@@ -29,13 +29,7 @@ classifiers = [
 ]
 description-file = "README.md"
 requires-python = ">=3.6,<4"
-keywords = [
-    "nome",
-    "cli",
-    "pypi",
-    "npm",
-    "name",
-]
+keywords = "nome,cli,pypi,npm,name"
 
 [tool.flit.metadata.urls]
 "Bug Tracker" = "https://github.com/joaopalmeiro/nome/issues"
