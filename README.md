@@ -41,9 +41,16 @@ Current version of Python used for development: `Python 3.6.13`.
 - [Flit](https://flit.readthedocs.io/en/latest/):
   - Python packaging tool.
   - [FastAPI](https://github.com/tiangolo/fastapi) uses it ([`pyproject.toml` file](https://github.com/tiangolo/fastapi/blob/master/pyproject.toml)).
+  - Flit replaces setuptools, so you don't need the `MANIFEST.in`, `setup.py`, and/or `setup.cfg` files ([source](https://github.com/scikit-hep/cookie)).
+  - It is possible to add `"Private :: Do Not Upload"` to the `classifiers` list to prevent a private project from being uploaded to PyPI.
 - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
 - [IceCream](https://github.com/gruns/icecream) package: alternative to `print()` for debugging.
 - `python -m venv env` or `python3 -m venv env` (virtual environment with `venv`).
+- [cookiecutter-hipster-pypackage](https://github.com/frankie567/cookiecutter-hipster-pypackage): it combines Pipenv and Flit.
+- [packaging](https://packaging.pypa.io/en/latest/) package:
+  - `pip install packaging`.
+  - [Version specifiers](https://packaging.pypa.io/en/latest/specifiers.html) documentation.
+  - `python requests_version.py`.
 
 ### `.pypirc` file
 
