@@ -35,6 +35,9 @@ requires = [
     "cleo ~=0.8.1",
 ]
 
+[tool.flit.scripts]
+nome = "nome.application:application"
+
 [tool.flit.metadata.urls]
 "Bug Tracker" = "https://github.com/joaopalmeiro/nome/issues"
 Twitter = "https://twitter.com/joaompalmeiro"
