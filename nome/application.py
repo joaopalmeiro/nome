@@ -2,6 +2,7 @@ from cleo import Application
 from cleo.config import ApplicationConfig
 
 from . import __name__, __version__
+from .npm_command import NpmCommand
 from .pypi_command import PypiCommand
 
 # Single command applications need a workaround:
@@ -24,6 +25,8 @@ config.set_display_name(__name__)
 # More info:
 # - https://github.com/sdispater/cleo/blob/0.8.1/cleo/application.py
 application = Application(config=config, complete=False)
+
+application.add(NpmCommand())
 application.add(PypiCommand())
 
 # application.run()

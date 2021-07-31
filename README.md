@@ -54,8 +54,12 @@ Current version of Python used for development: `Python 3.6.13`.
   - [Version specifiers](https://packaging.pypa.io/en/latest/specifiers.html) documentation.
   - Run `python requests_version.py`.
 - [whey](https://whey.readthedocs.io/en/latest/) (Python wheel builder).
-- [Cleo 0.8.1](https://github.com/sdispater/cleo/tree/0.8.1).
+- [Cleo 0.8.1](https://github.com/sdispater/cleo/tree/0.8.1):
+  - [Does not expose verbosity flags](https://github.com/sdispater/clikit/issues/44) (open) issue.
 - `nome = "nome.application:application.run"` (more info [here](https://github.com/sdispater/orator/blob/0.9/orator/commands/application.py) and [here](https://github.com/sdispater/orator/blob/0.9/pyproject.toml)).
+- [VSCodeThemes](https://vscodethemes.com/) (website to preview themes).
+  - [Palenight Theme](https://marketplace.visualstudio.com/items?itemName=whizkydee.material-palenight-theme).
+- [HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status).
 
 ### `.pypirc` file
 
