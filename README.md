@@ -1,5 +1,7 @@
 # nome
 
+![PyPI](https://img.shields.io/pypi/v/nome?style=flat-square)
+
 A Python CLI to check if a package name is available in [PyPI](https://pypi.org/) or [npm](https://www.npmjs.com/).
 
 ## References
