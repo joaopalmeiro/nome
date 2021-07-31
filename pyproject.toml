@@ -36,7 +36,7 @@ requires = [
 ]
 
 [tool.flit.scripts]
-nome = "nome.application:application"
+nome = "nome.application:application.run"
 
 [tool.flit.metadata.urls]
 "Bug Tracker" = "https://github.com/joaopalmeiro/nome/issues"

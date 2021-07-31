@@ -20,7 +20,7 @@ Current version of Python used for development: `Python 3.6.13`.
   - **Note**: Whenever you install a new package with `pip` in this environment, activate it again.
 - `pip install flit==3.2.0`.
   - Requests is one of the dependencies.
-  - [Documentation](https://github.com/takluyver/flit/tree/3.2.0).
+  - [Documentation](https://github.com/takluyver/flit/tree/3.2.0/doc).
 - `flit install --deps develop --symlink`.
   - To install all dependencies and `nome` in the local environment.
   - [For Windows](https://flit.readthedocs.io/en/latest/cmdline.html#flit-install), replace `--symlink` with `--pth-file`.
@@ -55,6 +55,7 @@ Current version of Python used for development: `Python 3.6.13`.
   - Run `python requests_version.py`.
 - [whey](https://whey.readthedocs.io/en/latest/) (Python wheel builder).
 - [Cleo 0.8.1](https://github.com/sdispater/cleo/tree/0.8.1).
+- `nome = "nome.application:application.run"` (more info [here](https://github.com/sdispater/orator/blob/0.9/orator/commands/application.py) and [here](https://github.com/sdispater/orator/blob/0.9/pyproject.toml)).
 
 ### `.pypirc` file
 
