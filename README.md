@@ -19,6 +19,7 @@ Current version of Python used for development: `Python 3.6.13`.
   - Run `which pip` to see if it worked. The path must end in `env/bin/pip`.
   - **Note**: Whenever you install a new package with `pip` in this environment, activate it again.
 - `pip install flit==3.2.0`.
+  - Requests is one of the dependencies.
 - `flit install --deps develop --symlink`.
   - To install all dependencies and `nome` in the local environment.
   - [For Windows](https://flit.readthedocs.io/en/latest/cmdline.html#flit-install), replace `--symlink` with `--pth-file`.
