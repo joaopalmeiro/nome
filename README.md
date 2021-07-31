@@ -1,6 +1,6 @@
 # nome
 
-A Python CLI to check if a package name is available in PyPI or npm.
+A Python CLI to check if a package name is available in [PyPI](https://pypi.org/) or [npm](https://www.npmjs.com/).
 
 ## References
 
@@ -12,6 +12,8 @@ A Python CLI to check if a package name is available in PyPI or npm.
 
 Current version of Python used for development: `Python 3.6.13`.
 
+### To set up the environment
+
 - `python -m venv env`.
 - `source ./env/bin/activate`.
   - Run `which pip` to see if it worked. The path must end in `env/bin/pip`.
@@ -20,6 +22,10 @@ Current version of Python used for development: `Python 3.6.13`.
 - `flit install --deps develop --symlink`.
   - To install all dependencies and `nome` in the local environment.
   - [For Windows](https://flit.readthedocs.io/en/latest/cmdline.html#flit-install), replace `--symlink` with `--pth-file`.
+
+### To activate the environment
+
+- `source ./env/bin/activate`.
 
 ## Deployment
 
@@ -36,6 +42,7 @@ Current version of Python used for development: `Python 3.6.13`.
   - Python packaging tool.
   - [FastAPI](https://github.com/tiangolo/fastapi) uses it ([`pyproject.toml` file](https://github.com/tiangolo/fastapi/blob/master/pyproject.toml)).
 - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
+- [IceCream](https://github.com/gruns/icecream) package: alternative to `print()` for debugging.
 - `python -m venv env` or `python3 -m venv env` (virtual environment with `venv`).
 
 ### `.pypirc` file
